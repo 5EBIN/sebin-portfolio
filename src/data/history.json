@@ -1,10 +1,18 @@
 [
     {
-      "role": "Software Engineer",
-      "organisation": "Google",
-      "startDate": "Sept, 2022",
+      "role": "VIT University",
+      "organisation": "University",
+      "startDate": "August, 2023",
       "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+      "experiences": ["Proficient in C++,Java,JavaScript"],
+      "imageSrc": "history/vit.png"
+    },
+    {
+      "role": "Coordinator",
+      "organisation": "Club",
+      "startDate": "September, 2024",
+      "endDate": "October, 2024",
+      "experiences": ["sponsorship and event management"],
+      "imageSrc": "history/thanima.png"
     }
   ]

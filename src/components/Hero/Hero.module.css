@@ -32,9 +32,24 @@
     -webkit-background-clip: text;
 }
 .description{
-    font-size: 30px;
+    font-size: 24px;
     font-family: var(--font-roboto);
-    margin-bottom: 52px;
+    margin-bottom: 32px;
+    line-height: 1.5;
+    opacity: 0.9;
+    background-color: rgba(0, 180, 180, 0.1);
+    border: 1px solid rgba(0, 180, 180, 0.2);
+    padding: 20px 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.description:hover {
+    background-color: rgba(0, 180, 180, 0.15);
+    border: 1px solid rgba(0, 180, 180, 0.3);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 .contactBtn{
     text-decoration: none;
@@ -73,7 +88,7 @@
     top: -128px;
     left: 10vw;
     border-radius:764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(0, 20, 40, 0.7);
     filter:blur(100px);
     z-index: 0;
 }
@@ -86,7 +101,7 @@
     top: 246px;
     right: -25vw;
     border-radius:764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(0, 20, 40, 0.7);
     filter:blur(100px);
     z-index: 0;
 }

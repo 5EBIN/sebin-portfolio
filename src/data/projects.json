@@ -1,19 +1,19 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Portfolio Website",
+      "imageSrc": "projects/portfolio.png",
+      "description": "This is my personal Portfolio Website built with Vite.",
+      "skills": ["React", "Vite", "Node"],
+      "demo": "https://sebinshaiju-portfolio.netlify.app/",
+      "source": "https://www.github.com/5EBIN"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "title": "Ecommerce Website",
+      "imageSrc": "projects/ecommerce.jpg",
+      "description": "This is an ecommerce website demo built with react and node and json backend.",
+      "skills": ["React", "Node"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com/5EBIN"
     },
     {
       "title": "Project C",

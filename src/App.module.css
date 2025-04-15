@@ -1,7 +1,56 @@
 @import "./vars.css";
-.App{
-    background-color: var(--color-bg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+
+.App {
+  background-color: var(--color-bg);
+  width: 100%;
+  min-height: 100vh;
+  color: var(--color-text);
+  font-family: var(--font-roboto);
+  overflow-x: hidden;
+  position: relative;
+}
+
+.App::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(0, 201, 201, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(0, 201, 201, 0.1) 0%, transparent 50%),
+    linear-gradient(45deg, rgba(0, 201, 201, 0.05) 0%, transparent 100%);
+  z-index: -1;
+  backdrop-filter: blur(5px);
+}
+
+/* Add padding to account for fixed navbar */
+.App > *:not(:first-child) {
+  padding-top: 80px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 201, 201, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: var(--radius-lg);
+  transition: var(--transition-smooth);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-light);
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(0, 201, 201, 0.3);
+  color: var(--color-text);
 }
